@@ -26,6 +26,8 @@ says `COMPLETED` for an OK run and `FAILED` otherwise.
 A run is **OK** when the launcher reached `slurmFinish`, every task of every
 job ended `COMPLETED` in `sacct`, and the output check, if given, exits 0.
 
+To add slurmTools to a new or existing pipeline, see [HOWTO.md](HOWTO.md).
+
 ## Check a run
 
 ```
